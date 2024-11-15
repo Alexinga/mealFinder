@@ -1,0 +1,8 @@
+.navbar__nav {
+  @extend .navbar;
+  @extend .navbar-expand-lg;
+  @extend .bg-body-tertiary;
+}
+.navbar__nav a {
+  color: $primary;
+}
